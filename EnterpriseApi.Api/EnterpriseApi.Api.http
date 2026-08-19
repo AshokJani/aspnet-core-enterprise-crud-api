@@ -1,0 +1,9 @@
+@EnterpriseApi_HostAddress = http://localhost:5237
+
+GET {{EnterpriseApi_HostAddress}}/api/departments
+Accept: application/json
+
+###
+
+GET {{EnterpriseApi_HostAddress}}/api/employees
+Accept: application/json
